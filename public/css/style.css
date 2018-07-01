@@ -5,6 +5,10 @@ body{
    
 }
 ul{
+    list-style-type: none
+}
+ul ul{
+    list-style-type: circle;
     background-color:white;
     border: 1px solid #f4f4f4;
     border-top: 3px solid #00c0ef;
@@ -13,8 +17,4 @@ ul{
     width: 50%;
     margin-left:auto;
     margin-right: auto;
-}
-h3{
-    border-bottom: 1px solid #f4f4f4;
-    text-align: center
 }
